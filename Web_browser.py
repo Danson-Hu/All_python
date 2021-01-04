@@ -1,5 +1,6 @@
 import webbrowser
 import requests
+"""下载文件"""
 # webbrowser.open('http://baidu.com')
 res = requests.get('http://gutenberg.org/cache/epub/1112/pg1112.txt')
 # res = requests.get('https://github.com/majido/clipper/releases/download/v1.2.1/clipper.apk')

@@ -1,4 +1,5 @@
 import os
+"""文件夹下所有目录及文件"""
 
 
 def directory(path):

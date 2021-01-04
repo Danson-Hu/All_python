@@ -2,6 +2,7 @@ import webbrowser
 import requests
 import bs4
 import sys
+"""必应搜索输入的内容并打开4个网页"""
 
 
 def BingSearch(url):

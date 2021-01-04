@@ -1,7 +1,10 @@
-#! /usr/bin/python3.5
+#! /usr/bin/python3.6
 import random
+"""猜数字"""
+
 number = random.randint(1, 20)
 print("猜一个1到20之间的整数，请开始你的表演！")
+# print(number)
 for i in range(1, 7):
     print("你共有 6 次机会," + "现在是第 " + str(i) + " 次！")
     try:

@@ -3,6 +3,7 @@ import requests
 import bs4
 import os
 import re
+"""爬取指定网址图片(需清楚目标网址构造)"""
 
 
 def download(url):
